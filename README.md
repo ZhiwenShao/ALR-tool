@@ -13,6 +13,7 @@ References:
 [3] Kostinger M, Wohlhart P, Roth P M, et al. Annotated facial landmarks in the wild: A large-scale, real-world database for facial landmark localization[C]//Computer Vision Workshops (ICCV Workshops), 2011 IEEE International Conference on. IEEE, 2011: 2144-2151.
 
 Prerequisites:
+
 1. The provided tool is compiled on Windows 8.1, 64 bit. But we have tested this tool successfully on Windows 7 and Windows 10.  
 
 2. If you haven't installed Visual Studio 2013 or Visual C++ Redistributable for Visual Studio 2013, then please download and install the Visual C++ Redistributable for Visual Studio 2013 from: https://www.visualstudio.com/downloads/download-visual-studio-vs
