@@ -12,7 +12,7 @@ Prerequisites:
 
 1. The provided tool is compiled on Windows 8.1, 64 bit. But we have tested this tool successfully on Windows 7 and Windows 10.  
 
-2. If you haven't installed Visual Studio 2013 or Visual C++ Redistributable for Visual Studio 2013, then please download and install the Visual C++ Redistributable for Visual Studio 2013 from: https://www.visualstudio.com/downloads/download-visual-studio-vs
+2. If you haven't installed Visual Studio 2013 or Visual C++ Redistributable for Visual Studio 2013, then please download and install the [Visual C++ Redistributable for Visual Studio 2013](https://www.visualstudio.com/downloads/download-visual-studio-vs).
 
 Usuage:
 
@@ -34,7 +34,7 @@ Format:
 Format of the listfile:
 This file starts with the number of the images to be tested.
 Then each of the following line contains the image name, followed by the left, right, top and bottom of the face bounding box.
-We suggest you use the face detector provided in http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm to generate the face bounding box.
+We suggest you use the [face detector](http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm) to generate the face bounding box.
 
 Format of the outputFile:
 5 facial landmark locations (x1,y1,x2,y2...).
