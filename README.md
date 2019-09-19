@@ -1,6 +1,4 @@
 # ARL Tool
-2016.3 tool_v1
-
 
 The provided tool is a quick implementation of ARL [(Face alignment by deep convolutional network with adaptive learning rate)](https://zhiwenshao.github.io/pdfs/projects/2016/shao2016face.pdf). And this tool is implemented based on Caffe [1]. The example images in the folder "data" are selected from AFLW [2].
 
