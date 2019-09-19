@@ -1,16 +1,14 @@
-# Tool
+# ARL Tool
 Face alignment tool v1
 2016.3
 
-The provided tool is a quick implementation of the paper [1]. And this tool is implemented based on Caffe [2]. The example images in the folder "data" are selected from AFLW [3].
+The provided tool is a quick implementation of ARL [(Face alignment by deep convolutional network with adaptive learning rate)](https://zhiwenshao.github.io/pdfs/projects/2016/shao2016face.pdf). And this tool is implemented based on Caffe [1]. The example images in the folder "data" are selected from AFLW [2].
 
 References:
 
-[1] Shao Z, Ding S, Zhu H, et al. Face alignment by deep convolutional network with adaptive learning rate[C]//Acoustics, Speech and Signal Processing (ICASSP), 2016 IEEE International Conference on. IEEE, 2016.
+[1] Jia Y, Shelhamer E, Donahue J, et al. Caffe: Convolutional architecture for fast feature embedding[C]//Proceedings of the ACM International Conference on Multimedia. ACM, 2014: 675-678.
 
-[2] Jia Y, Shelhamer E, Donahue J, et al. Caffe: Convolutional architecture for fast feature embedding[C]//Proceedings of the ACM International Conference on Multimedia. ACM, 2014: 675-678.
-
-[3] Kostinger M, Wohlhart P, Roth P M, et al. Annotated facial landmarks in the wild: A large-scale, real-world database for facial landmark localization[C]//Computer Vision Workshops (ICCV Workshops), 2011 IEEE International Conference on. IEEE, 2011: 2144-2151.
+[2] Kostinger M, Wohlhart P, Roth P M, et al. Annotated facial landmarks in the wild: A large-scale, real-world database for facial landmark localization[C]//Computer Vision Workshops (ICCV Workshops), 2011 IEEE International Conference on. IEEE, 2011: 2144-2151.
 
 Prerequisites:
 
@@ -47,7 +45,19 @@ Example:
 Run run.bat
 
 # Related materials
-- [Caffe Training configuration files](https://github.com/ZhiwenShao/ARL-configuration)
+- [Caffe training configuration files of ARL](https://github.com/ZhiwenShao/ARL-configuration)
+- [Face bounding box annotations of 2995 AFLW images](https://github.com/ZhiwenShao/AFLW_bbox_annotation)
 
+Please cite our paper in your publications if it helps your research:
+```
+@inproceedings{shao2016face,
+  title={Face alignment by deep convolutional network with adaptive learning rate},
+  author={Shao, Zhiwen and Ding, Shouhong and Zhu, Hengliang and Wang, Chengjie and Ma, Lizhuang},
+  booktitle={2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1283--1287},
+  year={2016},
+  organization={IEEE}
+}
+```
 
 Should you have any questions, then just contact with us through email, shaozhiwen@sjtu.edu.cn.
