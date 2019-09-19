@@ -1,4 +1,4 @@
-# face_align_v1
+# Tool
 Face alignment tool v1
 2016.3
 
@@ -45,5 +45,9 @@ Format of the outputFile:
 
 Example:
 Run run.bat
+
+# Related materials
+- [Caffe Training configuration files](https://github.com/ZhiwenShao/ARL-configuration)
+
 
 Should you have any questions, then just contact with us through email, shaozhiwen@sjtu.edu.cn.
