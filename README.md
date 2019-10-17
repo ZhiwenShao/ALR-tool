@@ -43,7 +43,7 @@ Example:
 Run run.bat
 
 # Related materials
-- [Caffe training configuration files of ALR](https://github.com/ZhiwenShao/ARL-configuration)
+- [Caffe training configuration files of ALR](https://github.com/ZhiwenShao/ALR-configuration)
 - [Face bounding box annotations of 2995 AFLW images](https://github.com/ZhiwenShao/AFLW_bbox_annotation)
 
 Please cite our paper in your publications if it helps your research:
